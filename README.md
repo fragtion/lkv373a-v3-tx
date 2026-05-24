@@ -225,10 +225,7 @@ assumes the half-rate path and prints a warning.
 Because `--mode` and `--fps` are decoupled software values — there is no real
 HDMI cable forcing them — you can combine them however you like. Feed a
 1080p source and select a 720p mode: the receiver's hardware scaler outputs
-720p. Feed 25 fps content and select a 60 Hz mode; feed a vertical phone clip;
-feed an RTSP camera. The cheap LKV373A receiver effectively becomes a
-**standalone hardware H.264 decoder + scaler** that emits whatever HDMI format
-you ask for. That is well beyond what the product was sold to do.
+720p.
 
 ---
 
