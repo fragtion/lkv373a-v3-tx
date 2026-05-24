@@ -417,8 +417,6 @@ display the transmitter's IP in its on-screen menu.
 
 ## Limitations
 
-- **Mode 33** (1680×1050) does not work under any settings — a receiver
-  firmware limitation.
 - **AAC audio** is not supported by the receiver; use MP2 or MP3.
 - The Python pacer is comfortable up to roughly 35 Mbit/s; for higher rates,
   or on very weak CPUs, use the C build.
@@ -486,7 +484,7 @@ Pull requests, forks, issues and suggestions are all welcome.
 
 ## Support
 
-If gpngr has been useful to you, consider buying me a coffee:
+If this project has been useful to you, consider buying me a coffee:
 
 **PayPal:** [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate/?business=2CGE77L7BZS3S&no_recurring=0)  
 **BTC:** `1Q4QkBn2Rx4hxFBgHEwRJXYHJjtfusnYfy`  
