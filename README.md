@@ -3,7 +3,7 @@
 **Stream directly to the Lenkeng LKV373A v3 RX (Receiver) - no TX/Transmitter required**
 
 `lkv373tx` is a software replacement for the *transmitter* half of the Lenkeng
-LKV373A v3 HDMI-over-IP extender. Point it at the cheap LKV373A **receiver**
+LKV373A v3 HDMI-over-IP extender. Point it at the LKV373A **receiver**
 unit and it will drive the receiver's HDMI output from anything ffmpeg can
 produce: a screen grab, a file, an RTSP camera, a test pattern, a live
 encoder — at the resolution and refresh rate you choose.
