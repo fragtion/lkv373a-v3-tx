@@ -1,6 +1,6 @@
 # LKV373A v3 TX Proxy
 
-**Stream directly to the Lenkeng LKV373A v3 RX (Receiver) - no TX/Transmitter required
+**Stream directly to the Lenkeng LKV373A v3 RX (Receiver) - no TX/Transmitter required**
 
 `lkv373tx` is a software replacement for the *transmitter* half of the Lenkeng
 LKV373A v3 HDMI-over-IP extender. Point it at the cheap LKV373A **receiver**
