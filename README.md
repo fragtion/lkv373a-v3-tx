@@ -8,17 +8,15 @@ unit and it will drive the receiver's HDMI output from anything ffmpeg can
 produce: a screen grab, a file, an RTSP camera, a test pattern, a live
 encoder — at the resolution and refresh rate you choose.
 
-It exists because the LKV373A **v3** generation changed its wire protocol.
-The receiver no longer just decodes an MPEG-TS stream; it expects a
-proprietary control table, a constant-rate "genlocked" delivery, and a
+Under normal circuimstances, the lkv373a v3 won't play a standard MPEG-TS stream; 
+it expects a modified control table, a constant-rate "genlocked" delivery, and a
 link-level heartbeat. A plain `ffmpeg ... udp://` stream makes a v3 receiver
 lock up, stutter, or sit on a black screen. `lkv373tx` reproduces what the
 real transmitter does, byte-for-byte, so the receiver behaves exactly as it
 does with genuine hardware.
 
 > This is an independent reverse-engineering project. It is not affiliated
-> with Lenkeng or ITE Tech. A full technical write-up of the firmware and
-> packet-capture analysis behind it is in preparation.
+> with Lenkeng or ITE Tech.
 
 ---
 
