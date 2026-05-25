@@ -450,10 +450,6 @@ Highlights:
   via `BasicUDPSink` in 1316-byte datagrams, with a ~1 ms keep-alive heartbeat
   so the link is never silent.
 
-A full technical report — firmware offsets, the disassembled SIT parser, the
-genlock loop, and the three real-transmitter captures that pinned the
-frame-rate model down — is in preparation and will accompany this repository.
-
 ---
 
 ## Credits
