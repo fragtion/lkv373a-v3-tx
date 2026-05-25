@@ -468,6 +468,8 @@ interoperates with.
 
 MIT License. See [`LICENSE`](LICENSE) for details.
 
+> **Note:** This license does not apply to any components embedded within the firmware which may be licensed under the GPL, proprietary licenses, or other terms.
+
 ---
 
 ## Contributing
