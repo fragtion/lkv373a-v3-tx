@@ -466,9 +466,7 @@ interoperates with.
 
 ## License
 
-MIT License. See [`LICENSE`](LICENSE) for details.
-
-> **Note:** This license does not apply to any components embedded within the firmware which may be licensed under the GPL, proprietary licenses, or other terms.
+See [`LICENSE`](LICENSE) for details.
 
 ---
 
